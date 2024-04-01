@@ -1,0 +1,1 @@
+npm i express cors sqlite3 bcrypt jsonwebtoken multer

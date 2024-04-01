@@ -1,0 +1,11 @@
+
+node_modules/ 
+
+public/
+logs/
+
+reactApp2/.next/
+reactApp2/out/
+reactApp2/out/
+reactApp2/build/
+reactApp2/node_modules/

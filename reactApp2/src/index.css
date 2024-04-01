@@ -1,0 +1,18 @@
+body{
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+/* Custom styles for dark Form.Control */
+.dark-form-control {
+background-color: #343a40; /* Dark background color */
+color: #ffffff; /* Text color */
+border-color: #343a40; /* Border color */
+}
+
+/* Override focus styles */
+.dark-form-control:focus {
+background-color: #495057; /* Dark background color when focused */
+color: #ffffff; /* Text color when focused */
+border-color: #495057; /* Border color when focused */
+}
