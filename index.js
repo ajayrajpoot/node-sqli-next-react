@@ -1,5 +1,5 @@
-// index.js
- 
+require('dotenv').config()
+
 const express = require("express");
 const cors = require('cors');
 const errorHandler = require('./middleware/errorHandler')
@@ -12,7 +12,7 @@ const router = require("./routes");
 const pubRouter = require("./routes/pub");
 const { logger, logEvents } = require('./middleware/logger')
 const corsOptions = require('./config/corsOptions')
-
+ 
 connectDatabase();
 
 const bodyParser = require("body-parser");
